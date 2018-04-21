@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <title>Add Shift</title>
+</head>
+ 
+<body>
+    <a href="create_shifts.php">Home</a>
+    <br/><br/>
+ 
+    <form action="add_shift.php" method="post" name="form1">
+        <table width="25%" border="0">
+
+            <tr> 
+                <td>Date:</td>
+                <td><input type="date" name="day"></td>
+            </tr>
+            <tr> 
+                <td>Start Time:</td>
+                <td><input type="time" name="starttime"></td>
+            </tr>
+			
+			<tr> 
+                <td>End Time:</td>
+                <td><input type="time" name="endtime"></td>
+            </tr>
+			<tr> 
+                <td>Priority</td>
+                <td><input type="number" name="priority"></td>
+            </tr>
+			<tr> 
+                <td>Number Required</td>
+                <td><input type="number" name="numreq"></td>
+            </tr>
+            <tr> 
+                <td></td>
+                <td><input type="submit" name="Submit" value="Add"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
